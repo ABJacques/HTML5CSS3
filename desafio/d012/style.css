@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-     
+:root {
+    --fonte01:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    --fonte02:'Passion One', cursive ;
+    --fonte03:'Sriracha', cursive ;
+}
 
 
 * {
@@ -15,6 +20,8 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte01);
+
 }
 
 header {
@@ -26,7 +33,8 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: 'Passion One', cursiva;
+    font-family:var(--fonte02)
+    
 }
 
 header > p {
