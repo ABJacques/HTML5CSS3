@@ -33,7 +33,8 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
-    font-family:var(--fonte02)
+    font-family:var(--fonte02);
+    font-size: 10vw;
     
 }
 
@@ -63,7 +64,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--fonte1);
+    font-family: var(--fonte03);
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -72,11 +74,13 @@ section.normal {
 }
 
 section.imagem {
+    
     background-color: rgb(51, 51, 51);
     color: white;
 }
 
 section.imagem > p {
-    width: 400px;
+    padding: 10px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.253);
 }
