@@ -6,7 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso de Tabelas Grandes</title>
 </head>
+<style>
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table{
+        width: 500px;
+        border-collapse: collapse;
+    }
+
+    td, th {
+        border: 1px solid black;
+        padding: 10px;
+    }
+    
+    thead, tfoot {
+        background-color: grey;
+        color: white;
+    }
+
+</style>
 <body>
+    <h1>Uso de Tabelas Grandes</h1>
     <table>
         <thead>
             <th>Estado</th>
@@ -15,10 +38,26 @@
         </thead>
 
         <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>41 262 199</td>
+            </tr>
+
+            <tr>
+                <td> Minas Gerais</td>
+                <td>19 597 330</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>15 989 929</td>
+            </tr>
 
         </tbody>
 
         <tfoot>
+            <th>Total de Habitantes</th>
+            <td>00000</td>
 
         </tfoot>
     </table>
