@@ -25,11 +25,30 @@
             border: 1px solid black;
             padding: 8px;
         }
+
+        col.cnome {
+            background-color: yellow;
+        }
+
+        col.csexo {
+            background-color: aqua;
+        }
+
+        col.cprof {
+           background-color: red;
+        }
     </style>
 </head>
 <body>
     <h1>Exercício de Tabelas</h1>
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            
+            <col class="cprof">
+
+        </colgroup>
         <caption>Cadastro</caption>
         <thead>
             <th scope="col">Nome</th>
